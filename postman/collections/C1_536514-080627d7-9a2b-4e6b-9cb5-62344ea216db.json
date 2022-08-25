@@ -26,5 +26,27 @@
 			},
 			"response": []
 		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "249076e4-5a69-4a6f-a6b1-753b9e505e54",
+				"type": "text/javascript",
+				"exec": [
+					"true"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "40776547-4941-4d53-84e3-4d01fa830e5a",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
 	]
 }
